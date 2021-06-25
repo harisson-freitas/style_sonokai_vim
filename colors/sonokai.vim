@@ -21,6 +21,7 @@ if !(exists('g:colors_name') && g:colors_name ==# 'sonokai' && s:configuration.b
 endif
 
 let g:colors_name = 'sonokai'
+let g:sonokai_style = 'atlantis'
 
 if !(has('termguicolors') && &termguicolors) && !has('gui_running') && &t_Co != 256
   finish
