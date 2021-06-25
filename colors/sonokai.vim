@@ -21,7 +21,7 @@ let g:sonokai_loaded_file_types = []
 "endif
 
 let g:colors_name = 'sonokai'
-"let g:sonokai_style = 'andromeda'
+let g:sonokai_style = 'andromeda'
 
 if !(has('termguicolors') && &termguicolors) && !has('gui_running') && &t_Co != 256
   finish
