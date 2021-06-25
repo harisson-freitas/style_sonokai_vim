@@ -13,15 +13,15 @@ let s:path = expand('<sfile>:p') " the path of this script
 let s:last_modified = 'Tue Jun  8 11:24:54 PM UTC 2021'
 let g:sonokai_loaded_file_types = []
 
-if !(exists('g:colors_name') && g:colors_name ==# 'sonokai' && s:configuration.better_performance)
-  highlight clear
-  if exists('syntax_on')
-    syntax reset
-  endif
-endif
+"if !(exists('g:colors_name') && g:colors_name ==# 'sonokai' && s:configuration.better_performance)
+ " highlight clear
+  "if exists('syntax_on')
+   " syntax reset
+  "endif
+"endif
 
 let g:colors_name = 'sonokai'
-let g:sonokai_style = 'andromeda'
+"let g:sonokai_style = 'andromeda'
 
 if !(has('termguicolors') && &termguicolors) && !has('gui_running') && &t_Co != 256
   finish
